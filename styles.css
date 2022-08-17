@@ -1,0 +1,149 @@
+.main{
+  background-color: white;
+  border: 2px solid #B3DEFD;
+  margin: auto;
+  width: 375px;
+  height: 718px;
+}
+
+.toolbar{
+  background: white;
+  color: black;
+  padding: 1em;
+  font-family: Poppins;
+}
+
+.logo{
+  font-family: Poppins;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 74px;
+  text-align: center;
+  vertical-align: center;
+  color: #6070FF;
+}
+
+.firstparagraph{
+  font-family: Poppins;
+  font-style: bold;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: auto;
+  align-items: left;
+  vertical-align: center;
+  color: #172B4D;
+}
+
+.secondparagraph{
+  font-family: Poppins;
+  
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  line-height: 24px;
+  line-height: 100%;
+  align-items: left;
+  vertical-align: top;
+  color: #344563;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu{
+  size: 80px;
+}
+
+.a{
+  margin-left: -30px;
+  margin-top: 0px;
+}
+
+.b{
+  margin-left: -48px;
+  margin-bottom: 100px;
+}
+
+.c{
+  margin-left: -98px;
+  margin-top: 6px;
+}
+
+.d{
+  margin-left: -140px;
+  margin-top: 3px;
+}
+
+.g{
+  margin-left: -166px;
+  margin-top: 4px;
+}
+
+.h{
+  margin-left: -188px;
+  margin-top: 1px;
+}
+
+.i{
+  margin-left: -208px;
+  margin-top: 2px;
+}
+
+.thirdparagraph{
+  font-family: Poppins;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-right: 234px
+  line-height: 100%;
+  align-items: left;
+  vertical-align: top;
+  color: #7F8CFF;
+}
+
+.sidebar-toggle{
+  position: relative;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #6070FF;
+  cursor: pointer;
+  animation: bounce 2s ease-in-out;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline{
+  display: flex;
+  flex-direction: column;
+}
+
+.icons{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 20px;
+  z-index: 1;
+  display: flex;
+  flex: 1;
+  align-items: left;
+  justify-content: space-around;
+  padding: 2px;
+}
