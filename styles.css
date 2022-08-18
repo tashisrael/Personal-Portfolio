@@ -7,8 +7,7 @@
   flex-direction: column;
   width: 375px;
   height: 718px;
-  font-family: 'Poppins';
-
+  font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .toolbar {
@@ -21,7 +20,7 @@
 }
 
 .logo {
-  font-family: 'Poppins';
+  font-family: Poppins, Arial, Verdana, Tahoma, sans-seri;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -45,8 +44,7 @@ a {
   left: 24px;
   font-size: 30px;
   line-height: 52px;
-  margin-top: 50px;
-  line-height: auto;
+  margin-top: 100px;
   align-items: left;
   vertical-align: center;
   color: #172b4d;
@@ -85,7 +83,7 @@ ul {
 
 .sidebar-toggle {
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
   background: transparent;
   border-color: transparent;
   color: #6070ff;
@@ -99,7 +97,11 @@ ul {
   display: flex;
   flex-direction: column;
   background: url("images/header-shape.png");
-  margin-top: 2px;
+  margin-top: -15px;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .icons {
