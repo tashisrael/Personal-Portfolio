@@ -1,26 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .main {
-  background-color: white;
-  border: 2px solid #b3defd;
+  background: url("images/header-background-mobile.png");
   margin: auto;
   display: flex;
   flex-direction: column;
   width: 375px;
   height: 718px;
+  font-family: 'Poppins';
+
 }
 
 .toolbar {
-  background: white;
-  color: black;
-  padding: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Poppins, var(--font-family-common);
+  flex-grow: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .logo {
-  font-family: Poppins, var(--font-family-common);
-  font-style: bold;
+  font-family: 'Poppins';
+  font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   line-height: 74px;
@@ -29,13 +31,21 @@
   color: #6070ff;
 }
 
+a {
+  color: #6070ff;
+}
+
 .firstparagraph {
-  font-family: Poppins, var(--font-family-common);
-  font-style: bold;
+  font-weight: bold;
   margin-left: 24px;
   margin-right: 24px;
-  font-size: 40px;
+  width: 327px;
+  height: 150px;
+  top: 114px;
+  left: 24px;
+  font-size: 30px;
   line-height: 52px;
+  margin-top: 50px;
   line-height: auto;
   align-items: left;
   vertical-align: center;
@@ -43,56 +53,25 @@
 }
 
 .secondparagraph {
-  font-family: Poppins, var(--font-family-common);
   font-size: 16px;
   margin-left: 24px;
   margin-right: 24px;
+  width: 327px;
+  height: 146px;
+  top: 276px;
+  left: 24px;
   line-height: 24px;
   align-items: left;
   vertical-align: top;
   color: #344563;
+  margin-top: 40px;
 }
 
 ul {
   list-style-type: none;
 }
 
-.a {
-  margin-left: -30px;
-}
-
-.b {
-  margin-left: -48px;
-  margin-bottom: 100px;
-}
-
-.c {
-  margin-left: -98px;
-  margin-top: 6px;
-}
-
-.d {
-  margin-left: -140px;
-  margin-top: 3px;
-}
-
-.g {
-  margin-left: -166px;
-  margin-top: 4px;
-}
-
-.h {
-  margin-left: -188px;
-  margin-top: 1px;
-}
-
-.i {
-  margin-left: -208px;
-  margin-top: 2px;
-}
-
 .thirdparagraph {
-  font-family: Poppins, var(--font-family-common);
   font-style: medium;
   font-size: 16px;
   line-height: 24px;
@@ -101,6 +80,7 @@ ul {
   align-items: left;
   vertical-align: top;
   color: #7f8cff;
+  margin-top: 13px;
 }
 
 .sidebar-toggle {
@@ -118,6 +98,8 @@ ul {
 .headline {
   display: flex;
   flex-direction: column;
+  background: url("images/header-shape.png");
+  margin-top: 2px;
 }
 
 .icons {
@@ -130,6 +112,7 @@ ul {
   margin-left: 24px;
   flex: 1;
   align-items: left;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 2px;
+  margin-top: -4px;
 }
