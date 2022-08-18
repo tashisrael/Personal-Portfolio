@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.main {
+  background: url("images/header-background-mobile.png");
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 718px;
+  font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.logo {
+  font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 74px;
+  text-align: center;
+  vertical-align: center;
+  color: #6070ff;
+}
+
+a {
+  color: #6070ff;
+}
+
+.firstparagraph {
+  font-weight: bold;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 150px;
+  top: 114px;
+  left: 24px;
+  font-size: 30px;
+  line-height: 52px;
+  margin-top: 100px;
+  align-items: left;
+  vertical-align: center;
+  color: #172b4d;
+}
+
+.secondparagraph {
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 146px;
+  top: 276px;
+  left: 24px;
+  line-height: 24px;
+  align-items: left;
+  vertical-align: top;
+  color: #344563;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.thirdparagraph {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-right: 224px;
+  align-items: left;
+  vertical-align: top;
+  color: #7f8cff;
+  margin-top: 13px;
+}
+
+.sidebar-toggle {
+  position: relative;
+  font-size: 1rem;
+  background: transparent;
+  border-color: transparent;
+  color: #6070ff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: url("images/header-shape.png");
+  margin-top: -15px;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icons {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 20px;
+  z-index: 1;
+  display: flex;
+  margin-left: 24px;
+  flex: 1;
+  align-items: left;
+  justify-content: flex-start;
+  padding: 2px;
+  margin-top: -4px;
+}
