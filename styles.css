@@ -1,31 +1,36 @@
-.main{
+.main {
   background-color: white;
-  border: 2px solid #B3DEFD;
+  border: 2px solid #b3defd;
   margin: auto;
+  display: flex;
+  flex-direction: column;
   width: 375px;
   height: 718px;
 }
 
-.toolbar{
+.toolbar {
   background: white;
   color: black;
   padding: 1em;
-  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Poppins, var(--font-family-common);
 }
 
-.logo{
-  font-family: Poppins;
+.logo {
+  font-family: Poppins, var(--font-family-common);
   font-style: bold;
   font-size: 18px;
   line-height: 20px;
   line-height: 74px;
   text-align: center;
   vertical-align: center;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.firstparagraph{
-  font-family: Poppins;
+.firstparagraph {
+  font-family: Poppins, var(--font-family-common);
   font-style: bold;
   margin-left: 24px;
   margin-right: 24px;
@@ -34,11 +39,11 @@
   line-height: auto;
   align-items: left;
   vertical-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.secondparagraph{
-  font-family: Poppins;
+.secondparagraph {
+  font-family: Poppins, var(--font-family-common);
   font-size: 16px;
   margin-left: 24px;
   margin-right: 24px;
@@ -53,93 +58,78 @@ ul {
   list-style-type: none;
 }
 
-.menu{
-  size: 80px;
-}
-
-.a{
+.a {
   margin-left: -30px;
-  margin-top: 0px;
 }
 
-.b{
+.b {
   margin-left: -48px;
   margin-bottom: 100px;
 }
 
-.c{
+.c {
   margin-left: -98px;
   margin-top: 6px;
 }
 
-.d{
+.d {
   margin-left: -140px;
   margin-top: 3px;
 }
 
-.g{
+.g {
   margin-left: -166px;
   margin-top: 4px;
 }
 
-.h{
+.h {
   margin-left: -188px;
   margin-top: 1px;
 }
 
-.i{
+.i {
   margin-left: -208px;
   margin-top: 2px;
 }
 
-.thirdparagraph{
-  font-family: Poppins;
+.thirdparagraph {
+  font-family: Poppins, var(--font-family-common);
   font-style: medium;
   font-size: 16px;
   line-height: 24px;
   margin-left: 24px;
-  margin-right: 234px;
+  margin-right: 224px;
   line-height: 100%;
   align-items: left;
   vertical-align: top;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
-.sidebar-toggle{
+.sidebar-toggle {
   position: relative;
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #6070FF;
+  color: #6070ff;
   cursor: pointer;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
-.main{
+.headline {
   display: flex;
   flex-direction: column;
 }
 
-.toolbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.headline{
-  display: flex;
-  flex-direction: column;
-}
-
-.icons{
+.icons {
   position: relative;
   top: 0;
   left: 0;
   right: 20px;
   z-index: 1;
   display: flex;
+  margin-left: 24px;
   flex: 1;
   align-items: left;
   justify-content: space-around;
