@@ -315,21 +315,6 @@ ul {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
-.btn42:hover {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-
-.btn43:hover {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-
-.btn44:hover {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-
 .works2 {
   margin-top: 106px;
   margin-left: 24px;
@@ -503,6 +488,11 @@ ul {
   display: inline-block;
 }
 
+.btn42:hover {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 .works3 {
   margin-top: 106px;
   margin-left: 24px;
@@ -669,6 +659,11 @@ ul {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.btn43:hover {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .works4 {
@@ -843,6 +838,11 @@ ul {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.btn44:hover {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .div-class {
