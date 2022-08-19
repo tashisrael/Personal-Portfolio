@@ -155,7 +155,6 @@ ul {
   font-weight: bold;
   display: flex;
   font-size: 32px;
-  line-height: 92%;
   margin-top: 2px;
   vertical-align: top;
   line-height: 74px;
@@ -249,7 +248,7 @@ ul {
 
 .btn1 {
   margin-left: -60px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -264,7 +263,7 @@ ul {
 
 .btn2 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -279,7 +278,7 @@ ul {
 
 .btn3 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -296,7 +295,7 @@ ul {
   margin-top: 24px;
   margin-left: 20px;
   background-color: white;
-  border: 1px solid blue; 
+  border: 1px solid blue;
   color: #6070ff;
   height: 42px;
   width: 120px;
@@ -327,8 +326,6 @@ ul {
   font-weight: bold;
   display: flex;
   font-size: 32px;
-  line-height: 44px;
-  line-height: 92%;
   margin-top: 2px;
   vertical-align: top;
   line-height: 74px;
@@ -352,7 +349,6 @@ ul {
   font-weight: 1000;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   margin-left: -15px;
@@ -501,8 +497,6 @@ ul {
   font-weight: bold;
   display: flex;
   font-size: 32px;
-  line-height: 44px;
-  line-height: 92%;
   margin-top: 2px;
   vertical-align: top;
   line-height: 74px;
@@ -526,7 +520,6 @@ ul {
   font-weight: 1000;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   margin-left: -15px;
   color: #344563;
@@ -539,7 +532,6 @@ ul {
   size: 2px;
   margin-top: -30px;
   font-size: 53px;
-  align-items: left;
   color: #344563;
 }
 
@@ -548,7 +540,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   color: #344563;
 }
@@ -560,7 +551,6 @@ ul {
   size: 2px;
   margin-top: -30px;
   font-size: 53px;
-  align-items: left;
   color: #344563;
 }
 
@@ -570,7 +560,6 @@ ul {
   align-content: center;
   size: 2px;
   font-size: 13px;
-  align-items: left;
   color: #344563;
 }
 
@@ -647,7 +636,6 @@ ul {
   color: #6070ff;
   height: 42px;
   width: 120px;
-  font-size: 20px;
   font-weight: bold;
   letter-spacing: 15%;
   font-size: 14px;
@@ -676,8 +664,6 @@ ul {
   font-weight: bold;
   display: flex;
   font-size: 32px;
-  line-height: 44px;
-  line-height: 92%;
   margin-top: 2px;
   vertical-align: top;
   line-height: 74px;
@@ -822,7 +808,6 @@ ul {
   color: #6070ff;
   height: 42px;
   width: 120px;
-  font-size: 20px;
   font-weight: bold;
   letter-spacing: 15%;
   font-size: 14px;
