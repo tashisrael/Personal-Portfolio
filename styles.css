@@ -14,14 +14,14 @@
 .headline {
   display: flex;
   height: auto;
-  flex-direction: column; 
+  flex-direction: column;
   margin-top: -15px;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.header{
+.header {
   margin: auto;
   position: center;
   display: flex;
@@ -155,7 +155,6 @@ ul {
   font-weight: bold;
   display: flex;
   font-size: 32px;
-  line-height: 44px;
   line-height: 92%;
   margin-top: 2px;
   vertical-align: top;
@@ -180,7 +179,6 @@ ul {
   font-weight: 1000;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   margin-left: -15px;
@@ -193,7 +191,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -204,7 +201,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -216,7 +212,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -227,7 +222,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -306,7 +300,6 @@ ul {
   color: #6070ff;
   height: 42px;
   width: 120px;
-  font-size: 20px;
   font-weight: bold;
   letter-spacing: 15%;
   font-size: 14px;
@@ -372,7 +365,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -383,7 +375,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -395,7 +386,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -406,7 +396,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -434,7 +423,7 @@ ul {
 
 .btn12 {
   margin-left: -60px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -449,7 +438,7 @@ ul {
 
 .btn22 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -464,7 +453,7 @@ ul {
 
 .btn32 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -481,11 +470,10 @@ ul {
   margin-top: 24px;
   margin-left: 20px;
   background-color: white;
-  border: 1px solid blue; 
+  border: 1px solid blue;
   color: #6070ff;
   height: 42px;
   width: 120px;
-  font-size: 20px;
   font-weight: bold;
   letter-spacing: 15%;
   font-size: 14px;
@@ -540,7 +528,6 @@ ul {
   size: 2px;
   align-content: left;
   font-size: 13px;
-  align-items: left;
   margin-left: -15px;
   color: #344563;
 }
@@ -551,7 +538,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -564,7 +550,6 @@ ul {
   size: 2px;
   align-content: left;
   font-size: 13px;
-  align-items: left;
   color: #344563;
 }
 
@@ -574,7 +559,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -585,7 +569,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -613,7 +596,7 @@ ul {
 
 .btn13 {
   margin-left: -60px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -628,7 +611,7 @@ ul {
 
 .btn23 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -643,7 +626,7 @@ ul {
 
 .btn33 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -660,7 +643,7 @@ ul {
   margin-top: 24px;
   margin-left: 20px;
   background-color: white;
-  border: 1px solid blue; 
+  border: 1px solid blue;
   color: #6070ff;
   height: 42px;
   width: 120px;
@@ -718,7 +701,6 @@ ul {
   font-weight: 1000;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   margin-left: -15px;
@@ -731,7 +713,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -742,7 +723,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -754,7 +734,6 @@ ul {
   align-content: center;
   size: 2px;
   margin-top: -30px;
-  align-content: left;
   font-size: 53px;
   align-items: left;
   color: #344563;
@@ -765,7 +744,6 @@ ul {
   font-weight: 550;
   align-content: center;
   size: 2px;
-  align-content: left;
   font-size: 13px;
   align-items: left;
   color: #344563;
@@ -793,7 +771,7 @@ ul {
 
 .btn14 {
   margin-left: -60px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -808,7 +786,7 @@ ul {
 
 .btn24 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
@@ -823,7 +801,7 @@ ul {
 
 .btn34 {
   margin-left: -90px;
-  background-color: #ebebff; 
+  background-color: #ebebff;
   border: none;
   color: #6070ff;
   height: 24px;
