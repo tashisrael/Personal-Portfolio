@@ -1062,7 +1062,7 @@ ul {
 }
 
 #contact h2 {
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -1093,7 +1093,7 @@ ul {
   width: 327px;
   height: 48px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #cfd8dc;
   margin: 0 auto;
   font-size: 17px;
@@ -1102,7 +1102,7 @@ ul {
   padding-left: 10px;
 }
 
-.inner-list li:nth-child(2){
+.inner-list li:nth-child(2) {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1119,7 +1119,7 @@ ul {
 
 .btn-submit {
   color: #6070ff;
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
   font-size: 17px;
   font-weight: 500px;
