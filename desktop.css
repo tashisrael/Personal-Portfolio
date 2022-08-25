@@ -354,7 +354,6 @@
     padding: 18px;
   }
 
-
   .grid-item12 {
     display: grid;
     font-weight: 1000;
@@ -609,7 +608,6 @@
   }
 
   .day3 {
-    margin-top: 4px;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -756,7 +754,6 @@
     padding: 18px;
     margin-bottom: 25px;
   }
-
 
   .grid-item14 {
     display: grid;
@@ -1057,6 +1054,7 @@
     text-align: center;
     margin: 0 auto;
   }
+
   #contact p {
     color: #ebebff;
     font-size: 20px;
@@ -1067,7 +1065,7 @@
     vertical-align: top;
  }
 
- #form {
+  #form {
     padding: 20px;
   }
 
