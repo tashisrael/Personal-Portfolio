@@ -84,7 +84,12 @@
     font-weight: 600;
     line-height: 20px;
     text-align: center;
-    transition: color 2s;
+    transition: color 1s;
+  }
+
+  .desk-item a:hover {
+    color: #ccd1d1
+
   }
 
   .headline {
