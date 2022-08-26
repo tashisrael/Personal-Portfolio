@@ -64,6 +64,11 @@
     color: #6070ff;
     margin-left: 150px;
     float: right;
+    transition: color 1s;
+  }
+
+  .logo a:hover {
+    color: #e74c3c ;
   }
 
   .desk-item {
