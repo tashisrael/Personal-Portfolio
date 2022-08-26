@@ -64,6 +64,23 @@
     color: #6070ff;
     margin-left: 150px;
     float: right;
+    transition: color 1s;
+    animation-duration: 3s;
+    animation-name: rotation;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .desk-item {
@@ -79,7 +96,7 @@
     font-weight: 600;
     line-height: 20px;
     text-align: center;
-    transition: color 2s;
+    transition: color 1s;
   }
 
   .headline {
@@ -170,6 +187,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk:hover {
+    transform: scale(0.8);
   }
 
   .tonic {
@@ -328,6 +350,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 1s;
   }
 
   .btn4:hover {
@@ -371,6 +394,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk2:hover {
+    transform: scale(0.8);
   }
 
   .tonic2 {
@@ -541,6 +569,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 1s;
   }
 
   .btn42:hover {
@@ -584,6 +613,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk3:hover {
+    transform: scale(0.8);
   }
 
   .tonic3 {
@@ -754,6 +788,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 1s;
   }
 
   .btn43:hover {
@@ -798,6 +833,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk4:hover {
+    transform: scale(0.8);
   }
 
   .tonic4 {
@@ -968,6 +1008,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 1s;
   }
 
   .btn44:hover {
@@ -1069,6 +1110,14 @@
     color: #505f79;
   }
 
+  .desk-item a:hover {
+    color: #ccd1d1;
+  }
+
+  .logo a:hover {
+    color: #e74c3c;
+  }
+
   .language {
     display: flex;
     text-align: center;
@@ -1104,6 +1153,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: white;
+    transition: 0.5s;
   }
 
   #contact {
@@ -1204,5 +1254,6 @@
     padding: 12px 16px;
     margin-top: 15px;
     margin-bottom: 30px;
+    transition: 0.5s;
   }
 }
