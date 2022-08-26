@@ -1113,6 +1113,7 @@
     border-top-left-radius: 100px;
     margin-top: -100px;
     padding: 150px 400px 150px 400px;
+    align-content: center;
   }
 
   #contact h2 {
@@ -1139,7 +1140,8 @@
 
   #form {
     padding: 20px;
-    align-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   #form ul {
@@ -1147,7 +1149,6 @@
     padding: 0;
     list-style-type: none;
     align-content: center;
-    margin-left: 28px;
   }
 
   li input {
