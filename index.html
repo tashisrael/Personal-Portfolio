@@ -6,16 +6,24 @@
 	<script src="https://kit.fontawesome.com/f836ddcdbf.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
 	<title>My Portifolio Page</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" media="(min-width:992px)" href="desktop.css">
+    <link rel="stylesheet" media="(max-width:992px)" href="styles.css">
 </head>
 <body>
 	<header class="header">
 		<section class="toolbar">
-			<nav class="logo">
+			<nav class="desktop">
+			<div class="logo">
 				<a href=""><p>My Logo</p></a>
-			</nav>
-			<nav class="menuitems">
+			</div>
+			<div class="desk-item">
+	          <div><a href="#portfolio">Portfolio</a></div>
+	          <div><a href="#about">About</a></div>
+	          <div><a href="#contact">Contact</a></div>
+            </div>
+			<div class="menuitems">
 				<button class="sidebar-toggle" type="submit"><i class="fas fa-bars"></i></button>
+			</div>
 			</nav>
 		</section>
 	</header>
@@ -39,14 +47,15 @@
 		</section>
 		<section class="works">
 			<div class="works1">
-				<img class="snap" src="images/Snap3.png" alt="">
+				<img class="snap" src="images/Snapshoot1.png" alt="">
+				<img class="snap-desk" src="images/Snap1.png" alt="">
+				<div class="desk-work">
 				<h2 class="tonic">Tonic</h2>
-s
 				<div class="grid-container">
 				  	<div class="grid-item1"><p>CANOPY</p></div>
-				  	<div class="grid-item2"><p>.</p></div>
+				  	<div class="grid-item2"><img src="images/dot.png" alt=""></div>
 				  	<div class="grid-item3"><p>Back End Dev</p></div>
-				  	<div class="grid-item4"><p>.</p></div>
+				  	<div class="grid-item4"><img src="images/dot.png" alt=""></div>
 				  	<div class="grid-item5"><p>2015</p></div>
 				</div>
 				<p class="day">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
@@ -56,15 +65,36 @@ s
 					<li class="btn3">javaScript</li>
 				</ul>
 				<button class="btn4" type="submit">See Project</button>
+				</div>
 			</div>
 			<div class="works2">
-				<img class="snap2" src="images/Snap4.png" alt="">
+				<img class="snap2" src="images/Snapshoot2.png" alt="">
+				<img class="snap-desk2" src="images/Snap2.png" alt="">
+				<div class="desk-work2">
+				<h2 class="tonic2">Multi-Post Stories</h2>
+				<div class="grid-container2">
+				  <div class="grid-item12"><p>FACEBOOK</p></div>
+				  <div class="grid-item22"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item32"><p>Full Stack Dev</p></div>
+				  <div class="grid-item42"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item52"><p>2015</p></div>
+				</div>
+				<p class="day2">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+				<ul class="langs2">
+					<li class="btn12">html</li>
+					<li class="btn52">Ruby on rails</li>
+					<li class="btn22">css</li>
+					<li class="btn32">javaScript</li>
+				</ul>
+				<button class="btn42" type="submit">See Project</button>
+				</div>
+				<div class="mobile-work2">
 				<h2 class="tonic2">Multi-Post Stories</h2>
 				<div class="grid-container2">
 				  <div class="grid-item12"><p>CANOPY</p></div>
-				  <div class="grid-item22"><p>.</p></div>
+				  <div class="grid-item22"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item32"><p>Back End Dev</p></div>
-				  <div class="grid-item42"><p>.</p></div>
+				  <div class="grid-item42"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item52"><p>2015</p></div>
 				</div>
 				<p class="day2">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
@@ -74,15 +104,36 @@ s
 					<li class="btn32">javaScript</li>
 				</ul>
 				<button class="btn42" type="submit">See Project</button>
+				</div>
 			</div>
 			<div class="works3">
 				<img class="snap3" src="images/Snapshoot3.png" alt="">
+				<img class="snap-desk3" src="images/Snap3.png" alt="">
+				<div class="desk-work3">
+				<h2 class="tonic3">Facebook 360</h2>
+				<div class="grid-container3">
+				  <div class="grid-item13"><p>FACEBOOK</p></div>
+				  <div class="grid-item23"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item33"><p>Full Stack Dev</p></div>
+				  <div class="grid-item43"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item53"><p>2015</p></div>
+				</div>
+				<p class="day3">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+				<ul class="langs3">
+					<li class="btn13">html</li>
+					<li class="btn53">Ruby on rails</li>
+					<li class="btn23">css</li>
+					<li class="btn33">javaScript</li>
+				</ul>
+				<button class="btn43" type="submit">See Project</button>
+				</div>
+				<div class="mobile-work3">
 				<h2 class="tonic3">Tonic</h2>
 				<div class="grid-container3">
 				  <div class="grid-item13"><p>CANOPY</p></div>
-				  <div class="grid-item23"><p>.</p></div>
+				  <div class="grid-item23"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item33"><p>Back End Dev</p></div>
-				  <div class="grid-item43"><p>.</p></div>
+				  <div class="grid-item43"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item53"><p>2015</p></div>
 				</div>
 				<p class="day3">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
@@ -92,15 +143,36 @@ s
 					<li class="btn33">javaScript</li>
 				</ul>
 				<button class="btn43" type="submit">See Project</button>
+				</div>
 			</div>
 			<div class="works4">
 				<img class="snap4" src="images/Snapshoot4.png" alt="">
+				<img class="snap-desk4" src="images/Snap4.png" alt="">
+				<div class="desk-work4">
+				<h2 class="tonic4">Uber Navigation</h2>
+				<div class="grid-container4">
+				  <div class="grid-item14"><p>Uber</p></div>
+				  <div class="grid-item24"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item34"><p>Lead Developer</p></div>
+				  <div class="grid-item44"><img src="images/dot.png" alt=""></div>
+				  <div class="grid-item54"><p>2018</p></div>
+				</div>
+				<p class="day4">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+				<ul class="langs4">
+					<li class="btn14">html</li>
+					<li class="btn54">Ruby on rails</li>
+					<li class="btn24">css</li>
+					<li class="btn34">javaScript</li>
+				</ul>
+				<button class="btn44" type="submit">See Project</button>
+				</div>
+				<div class="mobile-work4">
 				<h2 class="tonic4">Multi-Post Stories</h2>
 				<div class="grid-container4">
 				  <div class="grid-item14"><p>CANOPY</p></div>
-				  <div class="grid-item24"><p>.</p></div>
+				  <div class="grid-item24"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item34"><p>Back End Dev</p></div>
-				  <div class="grid-item44"><p>.</p></div>
+				  <div class="grid-item44"><img src="images/Vector2.png" alt=""></div>
 				  <div class="grid-item54"><p>2015</p></div>
 				</div>
 				<p class="day4">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
@@ -110,6 +182,7 @@ s
 					<li class="btn34">javaScript</li>
 				</ul>
 				<button class="btn44" type="submit">See Project</button>
+				</div>
 			</div>
 		</section>
 	<div class="div-class">
@@ -138,19 +211,19 @@ s
 		        </ul>
 		        <div class="desk-programming">
 		          <ul class="outer-item">
-		            <li class="programming"><img src="./images/javaScript.png" alt="JavaScript"></li>
+		            <li class="programming"><img src="images/javaScript.png" alt="JavaScript"></li>
 		            <li>
 		              <p>JavaScript</p>
 		            </li>
 		          </ul>
 		          <ul class="outer-item">
-		            <li class="programming"><img src="./images/html.png" alt="HTML"></li>
+		            <li class="programming"><img src="images/html.png" alt="HTML"></li>
 		            <li>
 		              <p>HTML</p>
 		            </li>
 		          </ul>
 		          <ul class="outer-item">
-		            <li class="programming"><img src="./images/css.png" alt="CSS"></li>
+		            <li class="programming"><img src="images/css.png" alt="CSS"></li>
 		            <li>
 		              <p>CSS</p>
 		            </li>
@@ -178,10 +251,10 @@ s
         <form action="https://formspree.io/f/mwkzpvlw" id="form" method="post">
         	<ul class="inner-list">
         		<li>
-        			<input type="text" name="name" class="form-control" placeholder="Enter Full name" maxlength="30" required="required">
+        			<input type="text" name="name" class="form-control" placeholder="Alexandra Loremipsum" maxlength="30" required="required">
         		</li>
         		<li>
-        			<input type="email" name="email" class="form-control" placeholder="Enter Your Email" required="required">
+        			<input type="email" name="email" class="form-control" placeholder="alexandra@gmail.com" required="required">
         		</li>
         		<li>
         			<textarea name="text" placeholder="Write your message here" class="form-textarea form-control" maxlength="500" required="required"></textarea>
