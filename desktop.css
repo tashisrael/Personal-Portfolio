@@ -73,16 +73,14 @@
     0% {
       transform: rotate(0deg);
     }
+
     50% {
       transform: rotate(180deg);
     }
+
     100% {
       transform: rotate(360deg);
     }
-  }
-
-  .logo a:hover {
-    color: #e74c3c ;
   }
 
   .desk-item {
@@ -99,11 +97,6 @@
     line-height: 20px;
     text-align: center;
     transition: color 1s;
-  }
-
-  .desk-item a:hover {
-    color: #ccd1d1
-
   }
 
   .headline {
@@ -1115,6 +1108,14 @@
   .contact-icon li a {
     font-size: 1.5em;
     color: #505f79;
+  }
+
+  .desk-item a:hover {
+    color: #ccd1d1;
+  }
+
+  .logo a:hover {
+    color: #e74c3c;
   }
 
   .language {
