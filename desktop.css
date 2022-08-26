@@ -180,6 +180,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk:hover {
+    transform: scale(0.8);
   }
 
   .tonic {
@@ -382,6 +387,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk2:hover {
+    transform: scale(0.8);
   }
 
   .tonic2 {
@@ -596,6 +606,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk3:hover {
+    transform: scale(0.8);
   }
 
   .tonic3 {
@@ -811,6 +826,11 @@
     top: 24px;
     bottom: 24px;
     position: absolute;
+    transition: 1s;
+  }
+
+  .snap-desk4:hover {
+    transform: scale(0.8);
   }
 
   .tonic4 {
