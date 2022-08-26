@@ -6,6 +6,17 @@
     margin: 0;
   }
 
+  button:hover {
+    background: #8f9afc;
+    color: white;
+  }
+
+  button:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px;
+  }
+
   a {
     text-decoration: none;
     text-decoration-line: none;
@@ -41,6 +52,7 @@
     height: 25px;
     padding: 1em;
     background-color: white;
+    z-index: 4;
     justify-content: space-between;
   }
 
@@ -61,10 +73,10 @@
   }
 
   .desk-item a {
-    padding-right: 20px;
+    padding-right: 40px;
     color: #344563;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     text-align: center;
     transition: color 2s;
@@ -83,11 +95,14 @@
     border-bottom-left-radius: 100px;
   }
 
-  .headline h1 {
+  .firstparagraph {
     color: #091e42;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-bottom: -50px;
   }
 
   ul {
@@ -99,11 +114,22 @@
     margin-top: -20px;
   }
 
-  .headline p {
-    font-weight: normal;
+  .secondparagraph {
+    font-weight: 400px;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+  }
+
+  .thirdparagraph {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500px;
+    align-items: left;
+    vertical-align: top;
+    color: #7f8cff;
+    margin-top: 13px;
   }
 
   .works {
@@ -120,7 +146,7 @@
     height: 496px;
     width: 1156px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     flex-direction: row;
     margin-top: 40px;
     padding: 20px 20px;
@@ -148,12 +174,12 @@
 
   .tonic {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     font-size: 40px;
     margin-top: 2px;
     vertical-align: top;
-    line-height: 74px;
+    line-height: 52px;
     color: #172b4d;
     margin-left: 18px;
   }
@@ -164,6 +190,7 @@
     margin-right: 50px;
     margin-left: 20px;
     align-content: center;
+    width: 380px;
     margin-top: -25px;
     grid-template-columns: auto auto auto auto auto auto;
     padding: 18px;
@@ -171,10 +198,10 @@
 
   .grid-item1 {
     display: grid;
-    font-weight: 1000;
+    font-weight: 700;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
     margin-left: -15px;
     color: #344563;
@@ -182,63 +209,64 @@
 
   .grid-item2 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    margin-left: -35px;
+    color: #c1c7d0;
   }
 
   .grid-item3 {
     display: grid;
-    font-weight: 550;
+    font-weight: 400;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    margin-left: -60px;
+    color: #6b778c;
   }
 
   .grid-item4 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
+    margin-left: -35px;
   }
 
   .grid-item5 {
     display: grid;
-    font-weight: 550;
+    font-weight: 400;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    margin-left: -65px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #6b778c;
   }
 
   .day {
     margin-top: 15px;
     margin-bottom: 45px;
     margin-left: 20px;
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
+    color: #344563;
   }
 
   .langs {
     display: flex;
     justify-content: space-around;
-    margin-left: -5px;
+    margin-left: 25px;
     margin-top: -2px;
     margin-right: 40px;
     margin-bottom: 40px;
+    width: 320px;
   }
 
   .btn1 {
-    margin-left: -60px;
+    margin-left: -120px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
@@ -247,19 +275,21 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-grid;
   }
 
   .btn2 {
-    margin-left: -90px;
+    margin-left: -240px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
     height: 24px;
     width: 53px;
     letter-spacing: 3%;
+    line-height: 22px;
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
@@ -268,13 +298,14 @@
   }
 
   .btn3 {
-    margin-left: -90px;
+    margin-left: -240px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
     height: 24px;
     width: 103px;
     letter-spacing: 3%;
+    line-height: 22px;
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
@@ -299,10 +330,21 @@
     display: inline-block;
   }
 
+  .btn4:hover {
+    background: #8f9afc;
+    color: white;
+  }
+
+  .btn4:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px;
+  }
+
   .works2 {
     background-color: white;
     display: flex;
-    z-index: -1;
+    z-index: 0;
     height: 496px;
     width: 1156px;
     position: relative;
@@ -333,13 +375,13 @@
 
   .tonic2 {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 700px;
     display: flex;
     font-size: 40px;
     margin-top: 2px;
     vertical-align: top;
-    line-height: 74px;
-    color: #172b4d;
+    line-height: 52px;
+    color: #091e42;
     margin-left: 18px;
   }
 
@@ -352,14 +394,15 @@
     margin-top: -25px;
     grid-template-columns: auto auto auto auto auto auto;
     padding: 18px;
+    width: 320px;
   }
 
   .grid-item12 {
     display: grid;
-    font-weight: 1000;
+    font-weight: 700;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
     margin-left: -15px;
     color: #344563;
@@ -367,13 +410,9 @@
 
   .grid-item22 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item32 {
@@ -381,20 +420,16 @@
     font-weight: 550;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #6b778c;
   }
 
   .grid-item42 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item52 {
@@ -402,15 +437,19 @@
     font-weight: 550;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #6b778c;
   }
 
   .day2 {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 40px;
+    font-weight: 400px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    color: #344563;
   }
 
   .langs2 {
@@ -420,6 +459,7 @@
     margin-top: -2px;
     margin-right: 40px;
     margin-bottom: 30px;
+    width: 430px;
   }
 
   .btn12 {
@@ -432,19 +472,21 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
 
   .btn22 {
-    margin-left: -90px;
+    margin-left: -120px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
     height: 24px;
     width: 53px;
     letter-spacing: 3%;
+    line-height: 22px;
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
@@ -453,11 +495,12 @@
   }
 
   .btn32 {
-    margin-left: -90px;
+    margin-left: -120px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
     height: 24px;
+    line-height: 22px;
     width: 103px;
     letter-spacing: 3%;
     font-size: 14px;
@@ -468,13 +511,14 @@
   }
 
   .btn52 {
-    margin-left: -90px;
+    margin-left: -120px;
     background-color: #ebebff;
     border: none;
     color: #6070ff;
     height: 24px;
     width: 123px;
     letter-spacing: 3%;
+    line-height: 22px;
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
@@ -499,12 +543,23 @@
     display: inline-block;
   }
 
+  .btn42:hover {
+    background: #8f9afc;
+    color: white;
+  }
+
+  .btn42:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px;
+  }
+
   .works3 {
     background-color: white;
     display: flex;
     height: 496px;
     width: 1156px;
-    z-index: -1;
+    z-index: 0;
     margin-top: 90px;
     position: relative;
     flex-direction: row;
@@ -533,13 +588,13 @@
 
   .tonic3 {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     font-size: 40px;
     margin-top: 2px;
     vertical-align: top;
-    line-height: 74px;
-    color: #172b4d;
+    line-height: 52px;
+    color: #091e42;
     margin-left: 18px;
   }
 
@@ -552,14 +607,16 @@
     align-content: center;
     grid-template-columns: auto auto auto auto auto auto;
     padding: 18px;
+    width: 320px;
   }
 
   .grid-item13 {
     display: grid;
-    font-weight: 1000;
+    font-weight: 500;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-style: normal;
+    font-size: 18px;
     align-items: left;
     margin-left: -15px;
     color: #344563;
@@ -567,34 +624,26 @@
 
   .grid-item23 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item33 {
     display: grid;
-    font-weight: 550;
+    font-weight: 400;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item43 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item53 {
@@ -602,23 +651,28 @@
     font-weight: 550;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .day3 {
     margin-left: 20px;
     margin-top: 30px;
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: #344563;
   }
 
   .langs3 {
     display: flex;
     justify-content: space-around;
-    margin-left: -16px;
+    margin-left: 1px;
     margin-top: 20px;
     margin-right: 40px;
     margin-bottom: 40px;
+    width: 400px;
   }
 
   .btn13 {
@@ -630,6 +684,7 @@
     width: 48px;
     letter-spacing: 3%;
     font-size: 14px;
+    line-height: 22px;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
@@ -644,6 +699,7 @@
     height: 24px;
     width: 53px;
     letter-spacing: 3%;
+    line-height: 22px;
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
@@ -658,6 +714,7 @@
     color: #6070ff;
     height: 24px;
     width: 103px;
+    line-height: 22px;
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
@@ -676,6 +733,7 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -698,13 +756,24 @@
     display: inline-block;
   }
 
+  .btn43:hover {
+    background: #8f9afc;
+    color: white;
+  }
+
+  .btn43:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px;
+  }
+
   .works4 {
     background-color: white;
     display: flex;
     height: 496px;
     width: 1156px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     flex-direction: row-reverse;
     padding: 20px 20px;
     margin-top: 90px;
@@ -733,13 +802,13 @@
 
   .tonic4 {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     font-size: 40px;
     margin-top: 2px;
     vertical-align: top;
-    line-height: 74px;
-    color: #172b4d;
+    line-height: 52px;
+    color: #091e42;;
     margin-left: 18px;
   }
 
@@ -753,6 +822,7 @@
     grid-template-columns: auto auto auto auto auto auto;
     padding: 18px;
     margin-bottom: 25px;
+    width: 300px;
   }
 
   .grid-item14 {
@@ -760,7 +830,7 @@
     font-weight: 1000;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
     margin-left: -15px;
     color: #344563;
@@ -768,34 +838,26 @@
 
   .grid-item24 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item34 {
     display: grid;
-    font-weight: 550;
+    font-weight: 500;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item44 {
     display: grid;
-    font-weight: 1000;
     align-content: center;
-    size: 2px;
-    margin-top: -30px;
-    font-size: 53px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .grid-item54 {
@@ -803,23 +865,28 @@
     font-weight: 550;
     align-content: center;
     size: 2px;
-    font-size: 13px;
+    font-size: 18px;
     align-items: left;
-    color: #344563;
+    color: #c1c7d0;
   }
 
   .day4 {
     margin-top: 4px;
     margin-left: 20px;
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: #344563;
   }
 
   .langs4 {
     display: flex;
     justify-content: space-around;
-    margin-left: -16px;
+    margin-left: 1px;
     margin-top: 20px;
     margin-right: 40px;
     margin-bottom: 30px;
+    width: 400px;
   }
 
   .btn14 {
@@ -832,6 +899,7 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -847,6 +915,7 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -863,6 +932,7 @@
     font-size: 14px;
     border-radius: 8px;
     text-align: center;
+    line-height: 22px;
     text-decoration: none;
     display: inline-block;
   }
@@ -877,6 +947,7 @@
     letter-spacing: 3%;
     font-size: 14px;
     border-radius: 8px;
+    line-height: 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -897,6 +968,17 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+  }
+
+  .btn44:hover {
+    background: #8f9afc;
+    color: white;
+  }
+
+  .btn44:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px;
   }
 
   .about-myself {
@@ -1024,17 +1106,6 @@
     background-color: white;
   }
 
-  button:hover {
-    background: #8f9afc;
-    color: white;
-  }
-
-  button:active {
-    background: #0416b6;
-    color: white;
-    box-shadow: 0 8px 16px;
-  }
-
   #contact {
     background-color: #6070ff;
     background-image: url(images/contactbg.png);
@@ -1062,39 +1133,49 @@
     margin-left: 24px;
     margin-right: 24px;
     text-align: center;
+    margin-top: -20px;
     vertical-align: top;
   }
 
   #form {
     padding: 20px;
+    align-content: center;
   }
 
   #form ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    align-content: center;
+    margin-left: 28px;
   }
 
   li input {
     background: #fff;
     border: 1px solid #cfd8dc;
     font-family: Poppins, sans-serif;
-    border-radius: 8px;
-    width: 100%;
-    height: 50px;
+    border-radius: 2px;
+    width: 447px;
+    height: 48px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400px;
     padding-left: 10px;
-    color: #000;
+    background-color: #fff;
+    color: #172b4d;
   }
 
   li textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
     font-family: Poppins, sans-serif;
-    border-radius: 8px;
-    width: 100%;
-    height: 150px;
+    border-radius: 2px;
+    width: 447px;
+    height: 170px;
     padding-left: 10px;
     font-size: 15px;
+    font-weight: 400px;
+    color: #b3bac5;
     line-height: 24px;
     padding-top: 10px;
   }
@@ -1114,6 +1195,7 @@
     background-color: #fff;
     border: none;
     font-size: 17px;
+    margin-left: -20px;
     font-weight: 500px;
     line-height: 24px;
     letter-spacing: 3%;

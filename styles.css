@@ -200,11 +200,7 @@ ul {
 
 .grid-item2 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
@@ -221,11 +217,7 @@ ul {
 
 .grid-item4 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
@@ -378,11 +370,7 @@ ul {
 
 .grid-item22 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
@@ -399,11 +387,7 @@ ul {
 
 .grid-item42 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
@@ -555,11 +539,8 @@ ul {
 
 .grid-item23 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
+  align-items: left;
   color: #344563;
 }
 
@@ -574,11 +555,8 @@ ul {
 
 .grid-item43 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
+  align-items: left;
   color: #344563;
 }
 
@@ -730,11 +708,7 @@ ul {
 
 .grid-item24 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
@@ -751,11 +725,7 @@ ul {
 
 .grid-item44 {
   display: grid;
-  font-weight: 1000;
   align-content: center;
-  size: 2px;
-  margin-top: -30px;
-  font-size: 53px;
   align-items: left;
   color: #344563;
 }
