@@ -35,9 +35,11 @@
   .snap3,
   .snap4,
   .flex-item2,
+  .mobile-item,
   .mobile-work2,
   .mobile-work3,
   .mobile-work4,
+  .mobile-nav,
   .menuitems,
   .mobile {
     display: none;
@@ -132,7 +134,6 @@
   }
 
   .secondparagraph {
-    font-weight: 400px;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
@@ -142,8 +143,7 @@
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500px;
-    align-items: left;
+    text-align: left;
     vertical-align: top;
     color: #7f8cff;
     margin-top: 13px;
@@ -222,9 +222,8 @@
     display: grid;
     font-weight: 700;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     margin-left: -15px;
     color: #344563;
   }
@@ -232,7 +231,7 @@
   .grid-item2 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     margin-left: -35px;
     color: #c1c7d0;
   }
@@ -241,9 +240,8 @@
     display: grid;
     font-weight: 400;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     margin-left: -60px;
     color: #6b778c;
   }
@@ -251,7 +249,7 @@
   .grid-item4 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
     margin-left: -35px;
   }
@@ -260,10 +258,9 @@
     display: grid;
     font-weight: 400;
     align-content: center;
-    size: 2px;
     margin-left: -65px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #6b778c;
   }
 
@@ -271,7 +268,6 @@
     margin-top: 15px;
     margin-bottom: 45px;
     margin-left: 20px;
-    font-weight: 400px;
     font-size: 16px;
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
     color: #344563;
@@ -403,7 +399,7 @@
 
   .tonic2 {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: 700px;
+    font-weight: bold;
     display: flex;
     font-size: 40px;
     margin-top: 2px;
@@ -429,9 +425,8 @@
     display: grid;
     font-weight: 700;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     margin-left: -15px;
     color: #344563;
   }
@@ -439,7 +434,7 @@
   .grid-item22 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -447,16 +442,15 @@
     display: grid;
     font-weight: 550;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #6b778c;
   }
 
   .grid-item42 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -464,9 +458,8 @@
     display: grid;
     font-weight: 550;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #6b778c;
   }
 
@@ -474,7 +467,6 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 40px;
-    font-weight: 400px;
     font-family: Poppins, sans-serif;
     font-size: 16px;
     color: #344563;
@@ -648,10 +640,9 @@
     display: grid;
     font-weight: 500;
     align-content: center;
-    size: 2px;
     font-style: normal;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     margin-left: -15px;
     color: #344563;
   }
@@ -659,7 +650,7 @@
   .grid-item23 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -667,16 +658,15 @@
     display: grid;
     font-weight: 400;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
   .grid-item43 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -684,16 +674,14 @@
     display: grid;
     font-weight: 550;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
   .day3 {
     margin-left: 20px;
     margin-top: 30px;
-    font-weight: 400px;
     font-size: 16px;
     font-family: Poppins, sans-serif;
     color: #344563;
@@ -869,9 +857,8 @@
     display: grid;
     font-weight: 1000;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     margin-left: -15px;
     color: #344563;
   }
@@ -879,7 +866,7 @@
   .grid-item24 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -887,16 +874,15 @@
     display: grid;
     font-weight: 500;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
   .grid-item44 {
     display: grid;
     align-content: center;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
@@ -904,16 +890,14 @@
     display: grid;
     font-weight: 550;
     align-content: center;
-    size: 2px;
     font-size: 18px;
-    align-items: left;
+    text-align: left;
     color: #c1c7d0;
   }
 
   .day4 {
     margin-top: 4px;
     margin-left: 20px;
-    font-weight: 400px;
     font-size: 16px;
     font-family: Poppins, sans-serif;
     color: #344563;
@@ -1210,7 +1194,6 @@
     height: 48px;
     font-size: 17px;
     line-height: 20px;
-    font-weight: 400px;
     padding-left: 10px;
     background-color: #fff;
     color: #172b4d;
@@ -1225,7 +1208,6 @@
     height: 170px;
     padding-left: 10px;
     font-size: 15px;
-    font-weight: 400px;
     color: #b3bac5;
     line-height: 24px;
     padding-top: 10px;
@@ -1247,7 +1229,6 @@
     border: none;
     font-size: 17px;
     margin-left: -20px;
-    font-weight: 500px;
     line-height: 24px;
     letter-spacing: 3%;
     border-radius: 8px;

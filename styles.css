@@ -48,7 +48,7 @@ nav {
 
 .header {
   margin: auto;
-  position: center;
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 375px;
@@ -67,6 +67,41 @@ a {
   text-decoration-line: none;
 }
 
+.mobile-item {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  text-align: left;
+  padding-left: 20px;
+  backdrop-filter: blur(2px);
+  display: none;
+}
+
+.mobile-item a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.mobile-nav a {
+  font-size: 32px;
+}
+
+.mobile-item .close a {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.mobile-item .close {
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
 .firstparagraph {
   font-weight: bold;
   margin-left: 24px;
@@ -78,8 +113,7 @@ a {
   font-size: 30px;
   line-height: 52px;
   margin-top: 100px;
-  align-items: left;
-  vertical-align: center;
+  text-align: left;
   color: #172b4d;
 }
 
@@ -92,7 +126,7 @@ a {
   top: 276px;
   left: 24px;
   line-height: 24px;
-  align-items: left;
+  text-align: left;
   vertical-align: top;
   color: #344563;
   margin-top: 40px;
@@ -103,12 +137,11 @@ ul {
 }
 
 .thirdparagraph {
-  font-style: medium;
   font-size: 16px;
   line-height: 24px;
   margin-left: 24px;
   margin-right: 224px;
-  align-items: left;
+  text-align: left;
   vertical-align: top;
   color: #7f8cff;
   margin-top: 13px;
@@ -136,7 +169,7 @@ ul {
   display: flex;
   margin-left: 24px;
   flex: 1;
-  align-items: left;
+  text-align: left;
   justify-content: flex-start;
   padding: 2px;
   margin-top: -4px;
@@ -191,9 +224,8 @@ ul {
   display: grid;
   font-weight: 1000;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   margin-left: -15px;
   color: #344563;
 }
@@ -201,7 +233,7 @@ ul {
 .grid-item2 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -209,16 +241,15 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
 .grid-item4 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -226,9 +257,8 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -361,9 +391,8 @@ ul {
   display: grid;
   font-weight: 1000;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   margin-left: -15px;
   color: #344563;
 }
@@ -371,7 +400,7 @@ ul {
 .grid-item22 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -379,16 +408,15 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
 .grid-item42 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -396,9 +424,8 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -531,7 +558,6 @@ ul {
   display: grid;
   font-weight: 1000;
   align-content: center;
-  size: 2px;
   font-size: 13px;
   margin-left: -15px;
   color: #344563;
@@ -540,7 +566,7 @@ ul {
 .grid-item23 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -548,7 +574,6 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
   color: #344563;
 }
@@ -556,7 +581,7 @@ ul {
 .grid-item43 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -564,7 +589,6 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
   color: #344563;
 }
@@ -699,9 +723,8 @@ ul {
   display: grid;
   font-weight: 1000;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   margin-left: -15px;
   color: #344563;
 }
@@ -709,7 +732,7 @@ ul {
 .grid-item24 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -717,16 +740,15 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
 .grid-item44 {
   display: grid;
   align-content: center;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -734,9 +756,8 @@ ul {
   display: grid;
   font-weight: 550;
   align-content: center;
-  size: 2px;
   font-size: 13px;
-  align-items: left;
+  text-align: left;
   color: #344563;
 }
 
@@ -864,8 +885,7 @@ ul {
   left: 24px;
   font-size: 40px;
   line-height: 52px;
-  align-items: left;
-  vertical-align: center;
+  text-align: left;
   color: #172b4d;
 }
 
@@ -878,18 +898,17 @@ ul {
   left: 24px;
   margin-top: -70px;
   line-height: 24px;
-  align-items: left;
+  text-align: left;
   vertical-align: top;
   color: #344563;
 }
 
 .connect {
-  font-style: medium;
   font-size: 16px;
   line-height: 24px;
   margin-left: 24px;
   margin-right: 224px;
-  align-items: left;
+  text-align: left;
   vertical-align: top;
   color: #7f8cff;
   margin-top: 4px;
@@ -1081,7 +1100,6 @@ ul {
   color: #cfd8dc;
   margin: 0 auto;
   font-size: 17px;
-  font-weight: 200px;
   border: none;
   padding-left: 10px;
 }
@@ -1106,7 +1124,6 @@ ul {
   background-color: #fff;
   border: none;
   font-size: 17px;
-  font-weight: 500px;
   line-height: 24px;
   letter-spacing: 3%;
   border-radius: 8px;
