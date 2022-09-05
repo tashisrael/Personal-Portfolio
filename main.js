@@ -8,4 +8,3 @@ const closeMobileMenu = () => {
 };
 document.querySelector('.sidebar-toggle').addEventListener('click', displayMobileMenu);
 closeMobileItems.forEach(((element) => element.addEventListener('click', closeMobileMenu)));
-
