@@ -87,6 +87,18 @@ a {
   font-size: 32px;
 }
 
+.mobile-item .close a {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.mobile-item .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
 .firstparagraph {
   font-weight: bold;
   margin-left: 24px;
