@@ -67,6 +67,26 @@ a {
   text-decoration-line: none;
 }
 
+.mobile-item {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  text-align: center;
+  display: none;
+}
+
+.mobile-item a {
+  color: #fff;
+}
+
+.mobile-nav a {
+  font-size: 32px;
+}
+
 .firstparagraph {
   font-weight: bold;
   margin-left: 24px;

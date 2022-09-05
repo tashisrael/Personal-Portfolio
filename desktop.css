@@ -35,9 +35,11 @@
   .snap3,
   .snap4,
   .flex-item2,
+  .mobile-item,
   .mobile-work2,
   .mobile-work3,
   .mobile-work4,
+  .mobile-nav,
   .menuitems,
   .mobile {
     display: none;
