@@ -11,15 +11,6 @@
     text-decoration-line: none;
   }
 
-  .flex-item1,
-  .shape,
-  .item,
-  .flex-item2,
-  .mobile-item,
-  .mobile {
-    display: none;
-  }
-
   .desktop {
     position: fixed;
     width: 100%;
@@ -363,6 +354,15 @@
     justify-content: space-between;
     border-bottom: 1px solid #acb7c3;
     padding-top: 20px;
+  }
+
+  .flex-item1,
+  .shape,
+  .item,
+  .flex-item2,
+  .mobile-item,
+  .mobile {
+    display: none;
   }
 
   .contact {
