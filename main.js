@@ -261,3 +261,8 @@ function closeSideBar() {
   Body.classList.remove('noscroll');
 }
 window.onload = showWorks();
+
+window.onload = showWorks();
+const formContainer = document.querySelector('.con-form');
+const mailInput = document.getElementById('mail');
+const messageError = document.querySelector('.error-message');
