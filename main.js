@@ -8,7 +8,7 @@ const closeMobileMenu = () => {
 };
 document.querySelector('.openMenu').addEventListener('click', displayMobileMenu);
 closeMobileItems.forEach(((element) => element.addEventListener('click', closeMobileMenu)));
-
+//Object for project detail
 const projectDetail = [{
   title: 'Tonic',
   exprience: ['CANOPY', 'Back End Dev', '2015'],
@@ -104,3 +104,69 @@ for (let i = 0; i < projectDetail.length; i += 1) {
     </div>
   </div>`;
 }
+//Popup modal display
+const popupModal = document.querySelector('#portfolioPopup');
+const displayPopupModal = (i) => {
+  let tech = '';
+  let techPop = '';
+  let experienceList = '';
+
+  for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
+    tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
+  }
+
+  for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
+    techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
+  }
+
+  for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
+    experienceList += (k === 0) ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>` : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
+  }
+  document.querySelector('#portfolioPopup').innerHTML = `
+  <div class="works-flex">
+      <div>
+        <div class="works-flex-pop">
+          <h3 class="intro-text-works">${projectDetail[i].title}</h3>
+          <span> <a onclick="closePopupModal()" href="" class="close-popup">X</a></span>
+      </div>
+      <ul class="works-flex-item titles-container">
+      ${experienceList}
+      </ul>
+      </div>
+      <div class="works-flex-item work-image">
+          <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" alt="${projectDetail[i].title} project screenshot"/>
+          <img src="${projectDetail[i].imagePopup}" class="desk-item1" alt="${projectDetail[i].title} project screenshot"/>
+      </div>
+      <div class="project-tags">
+          <div class="work-description">
+            <p class="works-flex-item works-description">
+              ${projectDetail[i].popDescription}
+            </p>
+          </div>
+          <div class="tags">
+              <ul class="lang-container mobile">
+              ${tech}
+              </ul>
+              <ul class="lang-container">
+              ${techPop}
+              </ul>
+              <div class="btn-tags">
+                <a href="${projectDetail[i].seeLive}" class="btn-see-project">See Live
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+                <a href="${projectDetail[i].seeSource}" class="btn-see-project">See Source
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+            </div>
+          </div>
+      </div>
+      </div>
+  `;
+  popupModal.style.display = 'block';
+};
+document.querySelectorAll('.see-project').forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))));
+
+const closeModal = document.querySelector('#portfolioPopup');
+const closePopupModal = () => {
+  closeModal.style.display = 'none';
+};
