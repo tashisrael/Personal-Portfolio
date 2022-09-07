@@ -3,14 +3,10 @@ const sideBar = document.querySelector('.sidebar');
 const cancel = document.querySelector('.cancel');
 const anchorLink = document.querySelectorAll('.anchor-link');
 const Body = document.querySelector('body');
-
-
-
 const cancelModal = document.querySelector('.cancels');
 const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
 const width = window.innerWidth;
-
 const cards = [
   {
     key: 0,
@@ -81,7 +77,6 @@ const Openpopup = ({
              <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet"> ${width > 1024 ? option[1] : optionMobile[1]}</li>
              <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet">${width > 1024 ? option[2] : optionMobile[2]} </li>
            </ul>
-            
           <div class='modal-img-container' >
             <img src='${width > 1024 ? desktopImage : featuredImage}' alt="modal picture" class="modal-img">
           </div>
@@ -109,10 +104,8 @@ const Openpopup = ({
             </div>
           </div>
       `;
-
   modalInner.innerHTML = displayModal;
 };
-
 function showWorks() {
   let works = [
     {
@@ -175,14 +168,11 @@ function showWorks() {
       <li class="langu2">javascript</li>`
     },
   ]
-
   for (let k = 0; k < works.length; k++) {
     let work = works[k]
     console.log(k);
     let template = document.createElement('template')
-
     if (k % 2 == 0) {
-
     template.innerHTML = `<div class="project-card desktop">
         <div class="mobile-image">
           <img src="${work.imgMobile}" alt="First Card">
@@ -190,8 +180,6 @@ function showWorks() {
         <div class="desktop-image">
           <img src="${work.imgDesktop}" alt="First card-desktop">
         </div>
-
-
         <div class="contents-two">
           <h2 class="head">${work.title}</h2>
           <h4 class="desktop_show">${work.title}</h4>
@@ -200,15 +188,12 @@ function showWorks() {
               <li class="card-detail canopy">${work.options[0]}</li>
               <li class="card-detail option  "><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
               <li class="card-detail option"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
-
               <li class="card-detail dcanopy2_face">${work.options[0]}</li>
               <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
               <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
             </ul>
-
             <p class="instruction">${work.description}</p>
             <p class="instruction-show">${work.description}</p>
-
             <div class="language1 inline">
               <ul>${work.languages}</ul>
             </div>
@@ -216,9 +201,7 @@ function showWorks() {
           <button type="button" class="btn-one btns">See project</button>
         </div>
       </div>
-    `.trim()
-
-      
+    `.trim()  
     } else {
       template.innerHTML = `<div class="project-card card-flex">
       <div class="mobile-image">
@@ -227,8 +210,6 @@ function showWorks() {
       <div class="desktop-image">
         <img src="${work.imgDesktop}" alt="First card-desktop">
       </div>
-
-
       <div class="contents">
         <h2 class="head">${work.title}</h2>
         <h4 class="desktop_show">${work.title}</h4>
@@ -237,15 +218,12 @@ function showWorks() {
             <li class="card-detail canopy">${work.options[0]}</li>
             <li class="card-detail option  "><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
             <li class="card-detail option"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
-
             <li class="card-detail dcanopy2_face">${work.options[0]}</li>
             <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
             <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
           </ul>
-
           <p class="instruction">${work.description}</p>
           <p class="instruction-show">${work.description}</p>
-
           <div class="language1 inline">
             <ul>${work.languages}</ul>
           </div>
@@ -259,36 +237,27 @@ function showWorks() {
     grab('work').appendChild(child)
   }
 }
-
-
 function closePopup() {
   modal.classList.remove('show-modal');
 }
-
 document.addEventListener("DOMContentLoaded", () => {
   const modalButton = document.querySelectorAll('.btns');
   modalButton.forEach((button, i) => {
     button.addEventListener('click', Openpopup(cards[i]));
   });
 });
-
-
 Bar.addEventListener('click', openSideBar);
 cancel.addEventListener('click', closeSideBar);
 cancelModal.addEventListener('click', closePopup);
-
 anchorLink.forEach((anchor) => {
   anchor.addEventListener('click', closeSideBar);
 });
-
 function openSideBar() {
   sideBar.classList.add('show-side-bar');
   Body.classList.add('noscroll');
 }
-
 function closeSideBar() {
   sideBar.classList.remove('show-side-bar');
   Body.classList.remove('noscroll');
 }
-
 window.onload = showWorks();
