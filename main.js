@@ -8,8 +8,6 @@ const closeMobileMenu = () => {
 };
 document.querySelector('.openMenu').addEventListener('click', displayMobileMenu);
 closeMobileItems.forEach(((element) => element.addEventListener('click', closeMobileMenu)));
-/*Object for project detail*/
-
 const projectDetail = [{
   title: 'Tonic',
   exprience: ['CANOPY', 'Back End Dev', '2015'],
@@ -105,8 +103,6 @@ for (let i = 0; i < projectDetail.length; i += 1) {
     </div>
   </div>`;
 }
-/*Popup modal display*/
-
 const popupModal = document.querySelector('#portfolioPopup');
 const displayPopupModal = (i) => {
   let tech = '';
@@ -167,5 +163,3 @@ const displayPopupModal = (i) => {
   popupModal.style.display = 'block';
 };
 document.querySelectorAll('.see-project').forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))));
-
-const closeModal = document.querySelector('#portfolioPopup');
