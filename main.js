@@ -291,5 +291,5 @@ nameInput.addEventListener('input', () => {
   data.names = nameInput.value;
   saveData(data);
 });
-
+onchange="popuplateLocalStorage()"
 
