@@ -281,7 +281,7 @@ mailInput.addEventListener('input', () => {
 });
 msgInput.addEventListener('input', () => {
   data.msg = msgInput.value;
-  saveData(data);
+  
 });
 nameInput.addEventListener('input', () => {
   data.names = nameInput.value;
