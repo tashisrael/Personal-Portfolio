@@ -268,4 +268,28 @@ const mailInput = document.getElementById('mail');
 const messageError = document.querySelector('.error-message');
 const msgInput = document.querySelector('#msg');
 const nameInput = document.querySelector('#names');
+let data = {};
+const savedData = JSON.parse(localStorage.getItem('last_info'));
+if (savedData) {
+  mailInput.value = savedData.email;
+  msgInput.value = savedData.msg;
+  nameInput.value = savedData.names;
+  data = savedData;
+}
+
+mailInput.addEventListener('input', () => {
+  data.email = mailInput.value;
+  saveData(data);
+});
+
+msgInput.addEventListener('input', () => {
+  data.msg = msgInput.value;
+  saveData(data);
+});
+
+nameInput.addEventListener('input', () => {
+  data.names = nameInput.value;
+  saveData(data);
+});
+
 
