@@ -297,6 +297,6 @@ formContainer.addEventListener('submit', (e) => {
     messageError.textContent = '';
     saveData(data);
   } else {
-    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+    
   }
 });
