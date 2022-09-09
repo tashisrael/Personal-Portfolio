@@ -261,7 +261,6 @@ function closeSideBar() {
   Body.classList.remove('noscroll');
 }
 window.onload = showWorks();
-
 const saveData = (data) => localStorage.setItem('last_info', JSON.stringify(data));
 const formContainer = document.querySelector('.con-form');
 const mailInput = document.getElementById('mail');
@@ -276,20 +275,27 @@ if (savedData) {
   nameInput.value = savedData.names;
   data = savedData;
 }
-
 mailInput.addEventListener('input', () => {
   data.email = mailInput.value;
   saveData(data);
 });
-
 msgInput.addEventListener('input', () => {
   data.msg = msgInput.value;
   saveData(data);
 });
-
 nameInput.addEventListener('input', () => {
   data.names = nameInput.value;
   saveData(data);
 });
-onchange="popuplateLocalStorage()"
-
+formContainer.addEventListener('submit', (e) => {
+  e.preventDefault();
+  data.names = formContainer.elements.name.value;
+  data.email = formContainer.elements.email.value;
+  data.msg = formContainer.elements.msg.value;
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+    saveData(data);
+  } else {
+    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+  }
+});
